@@ -21,7 +21,7 @@ public class App {
 
 		BellmanFordAlgorithm algorithm = new BellmanFordAlgorithm(edgeList, vertexList);
 		algorithm.applyAlgorithm(vertex1);
-		System.out.println(algorithm.shortestPathTo(vertex2));
+		//System.out.println(algorithm.shortestPathTo(vertex2));
 	}
 
 }
